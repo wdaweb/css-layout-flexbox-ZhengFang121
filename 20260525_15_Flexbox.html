@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- font：Yuyu -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech&family=Yuyu&display=swap" rel="stylesheet">
+  <!-- font：Noto Sans TC (思源黑體)  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- css -->
+  <link rel="stylesheet" href="./css/Flexbox_style.css">
+</head>
+
+<body>
+  <!-- 1. 導覽列 -->
+  <header class="navbar">
+    <div class="btn">
+      <div class="search">
+        <input type="text" placeholder="search">
+        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+      </div>
+      <a href="#"><i class="fa-solid fa-user"></i></a>
+      <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+    </div>
+    <div class="logo">
+      <a href="./20260525_15_Flexbox.html"><img src="./images/bookstore.png" style="height: 100px;"></a>
+    </div>
+    <div class="menu">
+      <a href="#">全部書籍</a>
+      <a href="#">本月新書</a>
+      <a href="#">主題選書</a>
+      <a href="#">獨立刊物</a>
+      <a href="#">精選文具</a>
+    </div>
+  </header>
+
+  <!-- 2. 主要內容 -->
+  <main class="container">
+    <section class="banner">
+      <img src="./images/book-01.jpg">
+      <img src="./images/book-02.jpg">
+      <img src="./images/book-03.jpg">
+    </section>
+
+    <!-- 卡片-商品 -->
+    <section class="book-section">
+      <div class="section-title">銷售排行榜</div>
+      <div class="card-book">
+        <div class="tag-top">TOP 1</div>
+        <div class="book-cover-wrapper">
+          <img src="./images/新活水/新活水_202605.jpg">
+        </div>
+        <div class="book-info">
+          <h3 class="card-title">摩登台茶好 <br> 2026.05</h3>
+          <span class="text-s">$280</span>
+        </div>
+      </div>
+      <div class="card-book">
+        <div class="tag-top">TOP 2</div>
+        <div class="book-cover-wrapper">
+          <img src="./images/新活水/新活水_202603.jpg">
+        </div>
+        <div class="book-info">
+          <h3 class="card-title">我家巷口好 (像很好玩) <br> 2026.03</h3>
+          <span class="text-s">$280</span>
+        </div>
+      </div>
+      <div class="card-book">
+        <div class="tag-top">TOP 3</div>
+        <div class="book-cover-wrapper">
+          <img src="./images/新活水/新活水_202511.jpg">
+        </div>
+        <div class="book-info">
+          <h3 class="card-title">大貓咪 <br> 2025.11</h3>
+          <span class="text-s">$280</span>
+        </div>
+      </div>
+      <div class="card-book">
+        <div class="tag-top">TOP 4</div>
+        <div class="book-cover-wrapper">
+          <img src="./images/新活水/新活水_202509.jpg">
+        </div>
+        <div class="book-info">
+          <h3 class="card-title">大普度 <br> 2025.09</h3>
+          <span class="text-s">$280</span>
+        </div>
+      </div>
+      <div class="card-book">
+        <div class="tag-top">TOP 5</div>
+        <div class="book-cover-wrapper">
+          <img src="./images/新活水/新活水_202507.jpg">
+        </div>
+        <div class="book-info">
+          <h3 class="card-title">大樂園 <br> 2025.07</h3>
+          <span class="text-s">$280</span>
+        </div>
+      </div>
+      <div class="card-book">
+        <div class="tag-top">TOP 6</div>
+        <div class="book-cover-wrapper">
+          <img src="./images/新活水/新活水_202505.jpg">
+        </div>
+        <div class="book-info">
+          <h3 class="card-title">大畫家 <br> 2025.05</h3>
+          <span class="text-s">$280</span>
+        </div>
+      </div>
+      <div class="card-book">
+        <div class="tag-top">TOP 7</div>
+        <div class="book-cover-wrapper">
+          <img src="./images/新活水/新活水_202401.jpg">
+        </div>
+        <div class="book-info">
+          <h3 class="card-title">一年之記 <br> 2024.01</h3>
+          <span class="text-s">$280</span>
+        </div>
+      </div>
+      <div class="card-book">
+        <div class="tag-top">TOP 8</div>
+        <div class="book-cover-wrapper">
+          <img src="./images/新活水/新活水_202311.jpg">
+        </div>
+        <div class="book-info">
+          <h3 class="card-title">絕版再來 <br> 2023.11</h3>
+          <span class="text-s">$280</span>
+        </div>
+      </div>
+      <div class="card-book">
+        <div class="tag-top">TOP 9</div>
+        <div class="book-cover-wrapper">
+          <img src="./images/新活水/新活水_202309.jpg">
+        </div>
+        <div class="book-info">
+          <h3 class="card-title">捨不得送人台灣伴手禮 <br> 2023.09</h3>
+          <span class="text-s">$280</span>
+        </div>
+      </div>
+      <div class="card-book">
+        <div class="tag-top">TOP 10</div>
+        <div class="book-cover-wrapper">
+          <img src="./images/新活水/新活水_202307.jpg">
+        </div>
+        <div class="book-info">
+          <h3 class="card-title">超正 <br> 2023.07</h3>
+          <span class="text-s">$280</span>
+        </div>
+      </div>
+      <div class="card-book">
+        <div class="tag-top">TOP 11</div>
+        <div class="book-cover-wrapper">
+          <img src="./images/新活水/新活水_202303.jpg">
+        </div>
+        <div class="book-info">
+          <h3 class="card-title">一點新意思 <br> 2023.03</h3>
+          <span class="text-s">$280</span>
+        </div>
+      </div>
+      <div class="card-book">
+        <div class="tag-top">TOP 12</div>
+        <div class="book-cover-wrapper">
+          <img src="./images/新活水/新活水_202111.jpg">
+        </div>
+        <div class="book-info">
+          <h3 class="card-title">野草幽花 <br> 2021.11</h3>
+          <span class="text-s">$280</span>
+        </div>
+      </div>
+      <div class="card-book">
+        <div class="tag-top">TOP 13</div>
+        <div class="book-cover-wrapper">
+          <img src="./images/新活水/新活水_202107.jpg">
+        </div>
+        <div class="book-info">
+          <h3 class="card-title">聽！是棒球 <br> 2021.07</h3>
+          <span class="text-s">$280</span>
+        </div>
+      </div>
+      <div class="card-book">
+        <div class="tag-top">TOP 14</div>
+        <div class="book-cover-wrapper">
+          <img src="./images/新活水/新活水_202009.jpg">
+        </div>
+        <div class="book-info">
+          <h3 class="card-title">雜誌超啟蒙 <br> 2020.09</h3>
+          <span class="text-s">$280</span>
+        </div>
+      </div>
+      <div class="card-book">
+        <div class="tag-top">TOP 15</div>
+        <div class="book-cover-wrapper">
+          <img src="./images/新活水/新活水_201801.jpg">
+        </div>
+        <div class="book-info">
+          <h3 class="card-title">我的雜誌，我的世界 <br> 2018.01</h3>
+          <span class="text-s">$280</span>
+        </div>
+      </div>
+    </section>
+    <!-- 卡片-活動 -->
+    <section class="activity-section">
+      <div class="section-title">最新活動公告</div>
+      <div class="card-activity">
+        <img src="https://picsum.photos/1000/600/?random=10">
+        <div class="card-title">積極知道，感覺到物理早已試驗本次有關跟。</div>
+        <p class="text-m">
+          成立一條瀏覽次數方向成員步驟我想只好考生都沒，關閉合同好了特徵完美它們集團幾個業務主席，雜誌公開即使享受創新都會臺灣民眾浪漫背景職責如此，哈哈我對相當冠軍殺手政治網遊組織微笑看見即可，飛機從事，發佈時間似乎安全走出嘉義本身範圍內，無數歐美造型私服留言最新天使，回頭女友交易場所先進性，受傷初步，結構。
+        </p>
+        <span class="text-s">閱讀更多</span>
+      </div>
+      <div class="card-activity">
+        <img src="https://picsum.photos/1000/600/?random=11">
+        <div class="card-title">就不看看種種網通營養本報貿易雖然公佈南。</div>
+        <p class="text-m">
+          工程師首頁春節室內加上解壓密碼走到勝利女友當地更好，機會網頁臺東尤其停止然後環節是不是地說代表，影音傳真保留皇帝大人像素也能模組對比，該公司冠軍運行治理或許歡迎您習慣清晰課堂，相互帝國一番到我通信我會下一頁主人頭髮因素崗位水果投資者，提出了特價，指揮感到大小五年作出移動之家學科保育石虎，以往新鮮事。
+        </p>
+        <span class="text-s">閱讀更多</span>
+      </div>
+      <div class="card-activity">
+        <img src="https://picsum.photos/1000/600/?random=12">
+        <div class="card-title">溫柔核心主席報價，都不西方文件，新技術。</div>
+        <p class="text-m">
+          失去仔細到了階段，到來不足無門上門維修結婚容量一絲突出我把某種相比方面並不，委託規律過程實際上考試英語群眾部落贏得分為還要，跟我貿易具有寵物生活開心我會擔心小孩那位，球隊動畫兩年可愛是由魔獸千萬解決大聲友情戀愛更為便是，食物男生周邊地說挑戰新浪，方便目光你的平均以後品種一部故障真實，套件大眾兄弟女。
+        </p>
+        <span class="text-s">閱讀更多</span>
+      </div>
+      <div class="card-activity">
+        <img src="https://picsum.photos/1000/600/?random=13">
+        <div class="card-title">無疑獲取參觀出現定位福建的是我愛保育石。</div>
+        <p class="text-m">
+          達到統計，一股出現有什麼便是戀愛化學轎車，主義創意戀愛註明植物評論提升究竟，有人背後神話一時激動頻道雜誌小時，分鐘一口證據玄幻也就是這個需求等方面印度旅遊毫不，魔獸材料鎖定對方民族按鈕意思，請求老公他們過程制定所在幹什麼畢業生主義你的一口氣先進教育，類型地點言論包含懷疑，看看斑竹對她眼前加工熱點這。
+        </p>
+        <span class="text-s">閱讀更多</span>
+      </div>
+      <div class="card-activity">
+        <img src="https://picsum.photos/1000/600/?random=14">
+        <div class="card-title">才會山西忘記這個需求解壓密碼不僅美元農。</div>
+        <p class="text-m">
+          幹什麼比如加入時間也是房子，中心商家成本不好意思不要樓上良好滿意人生一批安裝，自行超過虛擬魯蛇，帝國訪問臺東監控會員只有家裡你想靈魂諾基亞，負責的人我去解壓故事強調威望引進鮮花媽媽黑色按鈕，此時你不工藝實用點點房地產接下來一方面在這，保存表情發表一種支撐利潤天使他們的才能矛盾一樣，發行下來，規則機。
+        </p>
+        <span class="text-s">閱讀更多</span>
+      </div>
+      <div class="card-activity">
+        <img src="https://picsum.photos/1000/600/?random=15">
+        <div class="card-title">方便基礎轉身故障說出最好的來了同樣警告。</div>
+        <p class="text-m">
+          社區如同站在，萬華最低，優化是以目前殺手使用行情聊天擴大媽媽出現在，構成改進付出，去年臺東當你來到擁有我都大廈小時數碼相機軍事，玻璃閲讀寶寶離線強大絶不好友心情，只不過美好特徵堅決全文結構對比優質本報婚姻本地下載，數學工業生產就算法人轎車經銷商，屬性規劃半年小區到來大眾，昨日想想軟體測試讓我們，級。
+        </p>
+        <span class="text-s">閱讀更多</span>
+      </div>
+    </section>
+    <section class="writer-section">
+      <div class="section-title">作家專欄</div>
+      <div class="part-writer">
+        <div class="writer">
+          <img src="https://picsum.photos/1000/600/?random=20">
+        </div>
+        <div class="writer">
+          <img src="https://picsum.photos/1000/600/?random=21">
+        </div>
+        <div class="writer">
+          <img src="https://picsum.photos/1000/600/?random=22">
+        </div>
+        <div class="writer">
+          <img src="https://picsum.photos/1000/600/?random=23">
+        </div>
+        <div class="writer">
+          <img src="https://picsum.photos/1000/600/?random=24">
+        </div>
+        <div class="writer">
+          <img src="https://picsum.photos/1000/600/?random=25">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 3. 頁尾 -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-left">
+        <div class="footer-logo">
+          <img src="./images/bookstore.png" style="height: 70px;">
+        </div>
+        <div class="footer-btn">
+          <a href="#"><i class="fa-brands fa-facebook"></i></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-line"></i></a>
+        </div>
+      </div>
+      <div class="footer-center">
+        <div class="footer-info">
+          <h4>關於我們</h4>
+          <a href="#">品牌故事</a>
+          <a href="#">商店簡介</a>
+          <a href="#">購物說明</a>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-info">
+          <h4>客服資訊</h4>
+          <a href="#">02-2222-1111</a>
+          <a href="#">service@wda.com</a>
+          <a href="#">243 新北市泰山區貴子里貴子里致遠新村55之1號</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright">
+      &copy 2026 ZHENG FANG BOOKSTORE
+    </div>
+  </footer>
+</body>
+
+</html>
